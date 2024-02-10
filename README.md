@@ -2,8 +2,8 @@
 
 Для ознакомления вы можете: клонировать репозиторий или же создать новый, следуя инструкциям ниже.
 
-1 - Clone repo
-  1. - git clone repo-link
-     - make sure you made virtual environment
-     - pip install -r requirements.txt
-     - now you can runserver locally
+*** 1 - Clone repo ***
+  1. git clone repo-link
+  2. make sure you made virtual environment
+  3. pip install -r requirements.txt
+  4. now you can runserver locally
