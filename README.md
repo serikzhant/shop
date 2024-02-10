@@ -1,5 +1,6 @@
 # Introduction to Django Web Store Project
-**Description**
+**Description
+**
 This repository serves as an introductory project for a web store, built using Django, Oscar, and Wagtail frameworks. 
 The project is designed to showcase the fundamental capabilities of each of these frameworks within the context of an online store.
 
