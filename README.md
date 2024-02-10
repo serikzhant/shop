@@ -16,5 +16,7 @@ _Despite the fact that the oscar framework is based on a django, it has a lot of
 1. make directory
 2. create and activate virtual environment to isolate dependencies
 3. pip install django-oscar-wagtail
-4. wagtail start "project name" . # initiate new wagtail project
+   _initiate base wagtail structure for your project_
+4. wagtail start "project name" .
+   
    
