@@ -12,3 +12,9 @@ The project is designed to showcase the fundamental capabilities of each of thes
   5. now you can runserver locally
 
 **2 - Start your own project**
+_Despite the fact that the oscar framework is based on a django, it has a lot of useful features out of the box, and therefore the launch of project is different._
+1. make directory
+2. create and activate virtual environment to isolate dependencies
+3. pip install django-oscar-wagtail
+4. wagtail start "project name" . # initiate new wagtail project
+   
