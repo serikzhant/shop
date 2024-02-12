@@ -57,6 +57,7 @@ wagtail start shop .
   5. Delete "home" and "search" folders.
   
   6. Remove "home" and "search" apps from INSTALLED_APPS in shop/settings/base.py file
+
 ![image](https://github.com/serikzhant/shop/assets/138390123/16e2efce-298b-4969-a44b-214c1e149a98)
 
   7. In shop/urls.py delete search import and it's view
@@ -183,5 +184,6 @@ py .\manage.py createsuperuser
 py .\manage.py runserver
 ```
 
-If you didn't specify the email address while creating the superuser log in via http://127.0.0.1:8000/admin with your username and password
-After that, you can navigate to dashboard and manage the site
+If you didn't specify the email address while creating the superuser log in via http://127.0.0.1:8000/admin with your username and password.
+
+After that, you can navigate to dashboard and manage the site manually
