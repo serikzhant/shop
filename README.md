@@ -61,6 +61,7 @@ wagtail start shop .
 ![image](https://github.com/serikzhant/shop/assets/138390123/16e2efce-298b-4969-a44b-214c1e149a98)
 
   7. In shop/urls.py delete search import and it's view
+
 ![image](https://github.com/serikzhant/shop/assets/138390123/340480b6-afb8-488f-bf11-395caf1e7ea7)
 
   8. In shop/settings/base.py file import default oscar settings:
@@ -75,6 +76,7 @@ from oscar.defaults import *
 "oscar.apps.checkout.context_processors.checkout",
 "oscar.core.context_processors.metadata",
 ```
+
 ![image](https://github.com/serikzhant/shop/assets/138390123/e40312a6-b897-4559-becb-269004bfc75d)
 
 
