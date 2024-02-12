@@ -5,15 +5,32 @@ This repository serves as an introductory project for a web store, built using D
 The project is designed to showcase the fundamental capabilities of each of these frameworks within the context of an online store.
 
 **1 - Clone repo**
-1. Clone this repository
+  1. Make new folder and open it in console
 ```
-git clone https://github.com/serikzhant/shop
+mkdir shop
+cd shop
 ```
-  2. make sure you made virtual environment
-  3. pip install -r requirements.txt
-  4. create superuser for dashboard access
-  5. now you can runserver locally
-
+  2. Clone this repository
+```
+git clone https://github.com/serikzhant/shop .
+```
+  3. Make virtual environment and activate it
+```
+virtualenv venv
+.\venv\Scripts\activate
+```
+  4. Install all required packages
+```
+pip install -r requirements.txt
+```
+  5. Create superuser
+```
+py .\manage.py createsuperuser
+```
+  6. Run shop server
+```
+py .\manage.py runserver    
+```
 **2 - Start your own project**
 
 _Despite the fact that the oscar framework is based on a django, it has a lot of useful features out of the box, and therefore the launch of project is different._
