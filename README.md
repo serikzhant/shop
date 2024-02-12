@@ -67,6 +67,7 @@ wagtail start shop .
 from oscar.defaults import *
 ```
 ![image](https://github.com/serikzhant/shop/assets/138390123/f0dfcf78-0306-4945-ad76-f02fb01f4656)
+ 
   9. In the same file, extend templates settings with oscar context processors:
 ```
 "oscar.apps.search.context_processors.search_form",
