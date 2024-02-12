@@ -189,3 +189,14 @@ py .\manage.py runserver
 If you didn't specify the email address while creating the superuser log in via http://127.0.0.1:8000/admin with your username and password.
 
 After that, you can navigate to dashboard and manage the site manually
+
+
+```
+from oscar.apps.catalogue.models import *
+material = AttributeOptionGroup.objects.create(name='material')
+AttributeOption.objects.create(
+    group= material,
+    option= 'material_1'
+)
+py manage.py shell < create_product_attribute.py
+```
