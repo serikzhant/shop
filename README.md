@@ -5,7 +5,10 @@ This repository serves as an introductory project for a web store, built using D
 The project is designed to showcase the fundamental capabilities of each of these frameworks within the context of an online store.
 
 **1 - Clone repo**
-  1. git clone repo-link
+1. Clone this repository
+```
+git clone https://github.com/serikzhant/shop
+```
   2. make sure you made virtual environment
   3. pip install -r requirements.txt
   4. create superuser for dashboard access
